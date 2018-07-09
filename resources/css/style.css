@@ -91,23 +91,24 @@ h2, h3, h4 {
   background-image: url("../css/images/locations.jpg");
   height: 500px;
   width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 #locations .flex-container{
-  margin: auto;
-  width: 100%;
-}
 
+  align-items: center;
+}
 .location {
-    opacity: 1.0;
+  opacity: 1.0;
     padding: 10px;
-    margin: auto;
+    margin: 5px 20px;
     background-color: black;
     flex-basis: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    }
+  }
 
 #contact{
 text-align: center;
